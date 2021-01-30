@@ -16,9 +16,21 @@ const routes = [
         component: () => import( '../views/About.vue')
       },
       {
-        path: '/product',
+        path: '/product',//商品管理
         name: 'Product',
-        component: () => import( '../views/Product.vue')
+        component: () => import( '../views/Product.vue'),
+        children:[
+          {
+            path: 'ongoods',//详情
+            name: 'Ongoods',
+            component: () => import( '../views/Ongoods.vue')
+          },
+          {
+            path:'modify',//编辑
+            name:'Modify',
+            component:() => import('../views/Modify.vue')
+          }
+        ]
       }
     ]
   },

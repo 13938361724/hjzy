@@ -7,7 +7,7 @@ import QS from 'qs'
 console.log(baseUrl)
 
 const request = axios.create({
-  baseURL: baseUrl, //设置请求的base url
+  baseURL: "http://adminv2.happymmall.com", //设置请求的base url
   timeout: 40000, //超时时长
   // withCredentials : true// 允许携带cookie
 });
