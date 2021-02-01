@@ -56,7 +56,6 @@
     </el-table>
 
   <div class="block">
-    <span class="demonstration">直接前往</span>
     <el-pagination
       @current-change="handleCurrentChange"
       layout="prev, pager, next, jumper"
