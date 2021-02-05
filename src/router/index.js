@@ -34,6 +34,11 @@ const routes = [
         path:'/addList',//编辑
         name:'AddList',
         component:() => import('../views/guanli/AddList.vue')
+      },
+      {
+        path:'/category',//品类管理
+        name:'Category',
+        component:() => import('../views/Category.vue')
       }
     ]
   },

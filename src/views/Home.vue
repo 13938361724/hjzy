@@ -36,7 +36,7 @@
                 <i></i>
                 <span slot="title">商品管理</span>
               </el-menu-item>
-              <el-menu-item index="1">
+              <el-menu-item index="/category">
                 <i></i>
                 <span slot="title">品类管理</span>
               </el-menu-item>
