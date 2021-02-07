@@ -39,6 +39,11 @@ const routes = [
         path:'/category',//品类管理
         name:'Category',
         component:() => import('../views/Category.vue')
+      },
+      {
+        path:'/addpinlei',//添加品类
+        name:'Addpinlei',
+        component:() => import('../views/addpinlei.vue')
       }
     ]
   },
